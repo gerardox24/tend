@@ -1,0 +1,19 @@
+{
+    "name": "rest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "rest": "node app.js",
+        "soap": "node app2.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "babel-cli": "^6.26.0",
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "soap": "^0.29.0"
+    }
+}
